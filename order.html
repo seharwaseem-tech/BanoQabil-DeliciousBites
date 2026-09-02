@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/deliciousBitesLogo....png">
+    <title>Delicious Bites | Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            <img src="images/deliciousBitesLogo....png" alt="LOGO">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="order.html" target="_blank" class="active">Order</a>
+                <a href="contact.html" target="_blank">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="order-main">
+            <p class="section-title">Skip the line</p>
+            <h1 class="section-heading">Place Your Order</h1>
+            <p class="para">Fill in your details below and we'll have it ready hot and fresh. Prefer to browse first?<a href="index.html#menu" target="_blank">Jump to the Menu.</a></p>
+        </section>
+
+        <section class="order-form">
+            <form action="submit.php" method="get" class="form">
+                <fieldset>
+                    <legend>Customer Details</legend>
+
+                    <div class="name">
+                        <label for="name">Full Name</label>
+                        <input type="text" placeholder="Enter your full name" id="name" name="Name" required>
+                    </div>
+
+                    <div class="Email-Phone">
+                        <div class="Email">
+                            <label for="email">Email Address</label>
+                            <input type="email" placeholder="you@gmail.com" id="email" name="email">
+                        </div>
+                        <div class="PhoneNo">
+                            <label for="PhoneNo">Phone Number</label>
+                            <input type="tel" placeholder="03XX-XXXXXXX" id="PhoneNo" name="phoneNo">
+                        </div>      
+                    </div>
+
+                    <div class="code">
+                        <label for="code">Secure Order Code</label>
+                        <input type="password" placeholder="Create a 4-6 digit code" id="code" name="Code">
+                    </div>
+                </fieldset>
+
+                <fieldset class="order-details">
+                    <legend>Order Details</legend>
+                    <label>Delivery Method</label>
+                    <div class="radio-options">
+                        <input type="radio" name="delivery-method" id="HomeD" value="Home-delivery">
+                        <label for="HomeD"><span>Home Delivery</span></label>
+                        <input type="radio" name="delivery-method" id="PickUp" value="PickUp">
+                        <label for="PickUp"><span>Pickup</span></label>
+                    </div>
+                    <label for="">Extra Toppings / Sides</label>
+                    <div class="checkbox-opt">
+                        <input type="checkbox" name="ExtraToppings" value="Extra Raita & Salad" id="salad">
+                        <label for="salad"><span>Extra Raita & Salad</span></label>
+                        <input type="checkbox" name="ExtraToppings" value="Naan" id="Naan">
+                        <label for="Naan"><span>Garlic Naan</span></label>
+                        <input type="checkbox" name="ExtraToppings" value="Cheese" id="Cheese">
+                        <label for="Cheese"><span>Extra Cheese</span></label>
+                        <input type="checkbox" name="ExtraToppings" value="Drink" id="Drink">
+                        <label for="Drink"><span>Chilled Drink</span></label>
+                        <input type="checkbox" name="ExtraToppings" value="Fries" id="Fries">
+                        <label for="Fries"><span>Fries</span></label>
+                        <input type="checkbox" name="ExtraToppings" value="Dip" id="Dip">
+                        <label for="Dip"><span>Dip</span></label>
+                    </div>
+                    <div class="dish-Quantity">
+                        <div class="dish">
+                            <label>Choose Dish</label>
+                            <select name="dish" id="dish">
+                                <option disabled selected>Select a Dish</option>
+                                <option value="Special Chicken Dum Biryani">Special Chicken Dum Biryani	</option>
+                                <option value="Creamy Royal Butter Chicken">Creamy Royal Butter Chicken</option>
+                                <option value="Classic Beef Cheese Burger">Classic Beef Cheese Burger</option>
+                                <option value="Wood-Fired Cheesy Pizza">Wood-Fired Cheesy Pizza</option>
+                                <option value="Creamy Tomato Penne Pasta">Creamy Tomato Penne Pasta</option>
+                                <option value="Decadent Chocolate Drip Cake">Decadent Chocolate Drip Cake</option>
+                            </select>
+                        </div>
+                        <div class="quantity">
+                            <label for="Quantity">Quantity</label>
+                            <input type="number" id="Quantity" placeholder="Quantity of items">
+                        </div>
+                    </div>
+                    <div class="spice-level">
+                        <label for="spice-level">Spice Level (1 mild – 10 fiery)</label>
+                        <input type="range" min="1" max="10">
+                    </div>
+                    <div class="date-time">
+                        <div class="date">
+                            <label for="Date">Delivery Date</label>
+                            <input type="date" id="Date" name="Date">
+                        </div>
+                        <div class="time">
+                            <label for="Time">Delivery Time</label>
+                            <input type="time" id="Time" name="Time">
+                        </div>
+                    </div>
+                    <div class="color-file">
+                        <div class="color">
+                            <label for="color">Pick Your Favorite Theme Color</label>
+                            <input type="color" id="color" name="color">
+                        </div>
+                        <div class="file">
+                            <label for="file">Upload Payment Receipt / ID</label>
+                            <input type="file">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="Additional-Notes">
+                    <legend>Additional Notes</legend>
+                    <label for="notes">Special Instructions</label>
+                    <textarea name="notes" id="notes" placeholder="Allergies, no onions, ring the bell twice, etc."></textarea>
+                </fieldset>
+                <div class="order-btns">
+                    <input type="submit" class="submit-btn order-btn">
+                    <input type="reset" class="reset-btn order-btn">
+                </div>
+                
+            </form>   
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="bottom-logo">
+            <img src="images/logo-bottom.png" alt="LOGO">
+            <p class="footer-line">&copy;2026BanoQabil. Made with &hearts; by Sehar Waseem</p>
+        </div>    
+    </footer>
+</body>
+</html>

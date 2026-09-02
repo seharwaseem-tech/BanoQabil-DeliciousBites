@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/deliciousBitesLogo....png">
+    <title>Delicious Bites | Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            <img src="images/deliciousBitesLogo....png" alt="LOGO">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="order.html" target="_blank">Order</a>
+                <a href="contact.html" target="_blank" class="active">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="order-main">
+            <p class="section-title">We'd love to hear from you</p>
+            <h1 class="section-heading">Get in Touch</h1>
+            <p class="para">Questions, feedback, or booking a table for a big group — reach out any time, or <a href="index.html#menu" target="_blank">jump to our menu</a> first.</p>
+        </section>
+
+        <section class="form-details">
+            <div class="contact-form">
+                <p class="contact-heading">Send a Message</p>
+                <form action="submit.php" method="get">
+                    <div class="name">
+                        <label for="name">Full Name</label>
+                        <input type="text" placeholder="Enter your full name" id="name" name="Name" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email Address</label>
+                        <input type="email" placeholder="you@gmail.com" id="email" name="email">
+                    </div>
+                    <div class="question">
+                        <label>Subject</label>
+                        <select name="question" id="question">
+                            <option>General Question</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Table Reservation">Table Reservation</option>
+                            <option value="Complaint">Complaint</option>
+                            <option value="Catering/Events">Catering/Events</option>
+                        </select>
+                    </div>
+                    <div class="message">
+                        <label for="msg">Message</label>
+                        <textarea name="msg" id="msg" placeholder="How can we help?"></textarea>
+                    </div>
+                    <div class="contact-btn">
+                        <button class="submit-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-details">
+                <p class="contact-heading">Contact Details</p>
+                <div class="OurDetails">
+                    <p class="details"><strong>Address</strong> <span>12 Mall Road, Gulberg, Lahore, Pakistan</span></p>
+                    <p class="details detail2"><strong>Phone</strong> <span>+92 300 1234567</span></p>
+                    <p class="details detail3"><strong>Email</strong> <span>hello@deliciousbites.pk</span></p>
+                    <p class="details detail4"><strong>Hours</strong> <span>Every day, 12:00 PM – 11:30 PM</span></p>
+                </div>
+                <p class="contact-heading">Follow Us</p>
+                <div class="social-media-icons">
+                   <a href="#"><i class="fa-brands fa-facebook-f"></i></a> 
+                   <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                   <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <div class="contact-map-video">
+            <div class="contact-map">
+                <p class="contact-heading">📍 Our Location</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3483614.613185882!2d74.324309!3d31.49758!3m2!1i1024!2i768!4f13.1!2m1!1sdelicious%20bites!5e0!3m2!1sen!2sus!4v1788259731617!5m2!1sen!2sus" width="470" height="310" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <div class="contact-video">
+                <p class="contact-heading">🎬 A Peek Into Prep</p>
+                <video controls muted loop>
+                    <source src="images/videoforAssignment.mp4" type="video/mp4">
+                </video>
+                <p class="video-tag-title">A quick look at how our kitchen preps ingredients each morning.</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="bottom-logo">
+            <img src="images/logo-bottom.png" alt="LOGO">
+            <p class="footer-line">&copy;2026BanoQabil. Made with &hearts; by Sehar Waseem</p>
+        </div>    
+    </footer>
+</body>
+</html>

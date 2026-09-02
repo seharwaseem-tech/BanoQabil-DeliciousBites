@@ -1,0 +1,662 @@
+/* CSS FOR HOME PAGE */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7eee4;
+    padding: 0;
+    margin: 0;
+}
+header nav{
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fbf5ec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 5rem;
+    margin-left: 4rem;
+}
+.nav-links{
+    margin-right: 7rem;
+    display: flex;
+    gap: 2rem;
+}
+.nav-links a{
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: 0.7rem 1rem;
+    font-size: 1.15rem;
+    color: #462009;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+}
+.nav-links .active{
+    background-color: #462009;
+    color: white;
+}
+.nav-links a:hover{
+    background-color: #462009;
+    color: white;
+}
+main{
+    padding-top: 2rem;
+    width: 100;
+    margin-bottom: 5rem;
+}
+.intro{
+    text-align: center;
+}
+#title1{
+    margin-top: 6rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    color: #b76c37;
+    padding-bottom: 0.2rem;
+}
+.intro h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    color: #462009;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro h1 span{
+    color: #b76c37;
+}
+#title2{
+    font-size: 1.10rem;
+    font-weight: 550;
+    font-style: italic;
+    padding-top: 0.3rem;
+    color: rgba(58, 57, 57, 0.829);
+}
+#para{
+    margin: 0 20rem;
+    line-height: 1.85rem;
+    font-weight: 500;
+}
+.intro button a{
+    text-decoration: none;
+    background-color: #f4e9dc;
+    color: #462009;
+    border: 2px solid #462009;
+    border: none;
+}
+.intro button{
+    padding: 0.9rem 1.3rem;
+    color: white;
+    background-color: #462009;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+#nav-btn1 a{
+    color: white;
+    background-color: #462009;
+}
+#nav-btn1{
+    padding: 1rem 1.3rem;
+}
+#nav-btn2{
+    margin-left: 0.4rem;
+    background-color: #f4e9dc;
+    color: #462009;
+    border: 2px solid #462009;
+}
+.intro .jumps{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro .jumps a{
+    text-decoration: none;
+    color: #b76c37;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-left: 1.25rem;
+    text-decoration: underline dotted #b76c37;
+}
+.intro .jumps i{
+    font-size: 0.6rem;
+}
+.line{
+    margin-top: 5rem;
+    border-top:1px solid #cdc8c4a6;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.section-title{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #b76c37;
+}
+.section-heading{
+    margin-top: 0;
+    font-size: 2.7rem;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #462009;
+}
+table{
+    text-align: center;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table tr td img{
+    height: 5rem;
+}
+table #row1 th{
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+    color: #b76c37;
+}
+
+table #row3 td img{
+    height: 6rem;
+}
+table #row4 td img{
+    height: 6.5rem;
+}
+table #row6 td img{
+    height: 4rem;
+}
+table #row6 td{
+    padding-top: 2.5rem;
+}
+table #row7 td{
+    padding-top: 2rem;
+}
+table #row7 td img{
+    height: 4.5rem;
+}
+table #row8 td img{
+    height: 5.5rem;
+}
+table #row8 td{
+    padding-top: 1.5rem;
+}
+table #row2 td{
+    background-color: #462009;
+    color: #f4e9dc;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+table tr td{
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+table tr .Category span{
+    color: #b76c37;
+    background-color: #b76c372e;
+    border-radius: 2rem;
+    padding: 0.7rem 1rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+table tr .dish-name span{
+    color: black;
+    font-weight: 600;
+}
+table tr .dish-price span{
+    color: black;
+    font-weight: 600;
+}
+table tr .offer span{
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #819956;
+}
+
+.special-items ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.special-items ul li{
+    background-color: #ffffff;
+    color: #462009;
+    padding: 1rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border-left: 3px solid #462009;
+    line-height: 1.75rem;
+    /* list-style: none; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.video-audio{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.home-video{
+    text-align: center;
+    height: 25rem;
+    width: 50%;
+    background-color: #ffffff89;
+    border-radius: 1rem;
+    border-left: 3px solid #462009;
+}
+.home-video iframe{
+    border-radius: 0.5rem;
+}
+.audio{
+    height: 25rem;
+    width: 35%;
+    background-color: #ffffff89;
+    border-radius: 1rem;
+    border-left: 3px solid #462009;
+}
+.audio audio{
+    padding-left: 2rem;
+    width: 85%;   
+}
+
+.home-map{
+    text-align: center;
+    height: 28rem;
+    width: 90%;
+    background-color: #ffffff89;
+    border-radius: 1rem;
+    border-left: 3px solid #462009;
+    margin: auto;
+    margin-top: 3rem;
+    padding-top: 0.5rem;
+}
+.home-map iframe{
+    border-radius: 0.5rem;
+}
+.last-headings{
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #462009;
+    padding-left: 2rem;
+}
+
+footer{
+    padding: 0.2rem 0;
+    width: 100%;
+    background-color: #462009;
+    text-align: center;
+}
+.bottom-logo img{
+    height: 3rem;
+    margin-top: 0.2rem;
+}
+footer .footer-line{
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-style: italic;
+    padding-top: 0;
+    margin-top: 0;
+    letter-spacing: 0.1rem;
+}
+
+
+/* CSS FOR ORDER PAGE */
+
+.order-main{
+    margin-top: 7rem;
+}
+
+.order-main .para{
+    margin: 0 22rem;
+    font-size: 1.10rem;
+    font-weight: 500;
+}
+
+.order-main .para a{
+    text-decoration: none;
+    color: #b76c37;
+    font-weight: 600;
+    line-height: 1.85rem;
+    text-decoration: underline dotted #b76c37;
+}
+
+.form{
+    margin: 0 12rem;
+    margin-top: 4rem;
+}
+.form fieldset{
+    border-radius: 0.7rem;
+    padding: 2rem;
+    border: 0.1rem solid #f3dbc0;
+    background-color: #fcf8f4;
+}
+.form fieldset legend{
+    font-weight: 600;
+    color: #462009;
+    font-size: 1.25rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 0.4rem;
+    text-decoration: underline solid #462009;
+}
+.form fieldset label{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.7rem 0;
+    color: #462009;
+}
+.form fieldset input{
+    padding: 0.9rem;
+    background-color: #f4e9dc;
+    border: none;
+    outline: none;
+    border: 0.1rem solid #f3dbc0;
+    border-radius: 2rem;
+    transition: all 0.2s ease-in;
+}
+.form fieldset input:hover{
+    border: 0.1rem solid #462009;
+}
+.form fieldset .name input{
+    width: 90%;
+}
+.form fieldset .Email-Phone input{
+    width: 170%;
+}
+.form fieldset .code input{
+    width: 40%;
+}
+.Email-Phone{
+    display: flex;
+    gap: 13rem;
+}
+.order-details{
+    margin-top: 3rem;
+}
+.radio-options{
+    display: flex;
+    align-items: center;
+}
+.radio-options label span{
+    margin-right: 0.9rem;
+    font-weight: 400;
+}
+.checkbox-opt{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.checkbox-opt label span{
+    margin-right: 2rem;
+    font-weight: 400;
+}
+.dish-Quantity{
+    display: flex;
+    gap: 10rem;
+}
+.dish-Quantity .quantity input{
+    width: 160%;
+}
+.dish select{
+    background-color: #f4e9dc;
+    color: #462009;
+    border-radius: 3rem;
+    padding: 0.9rem 1rem;
+    border: none;
+    border: 0.1rem solid #f3dbc0;
+    width: 150%;
+    transition: all 0.2s ease-in;
+}
+.dish select:hover{
+    border: 0.1rem solid #462009;
+}   
+.spice-level label{
+    margin-top: 0.5rem;
+}
+.spice-level input{
+    width: 90%;
+}
+.date-time{
+    display: flex;
+    align-items: center;
+    gap: 17rem;
+}
+
+.date-time input{
+    width: 250%;
+}
+.color-file{
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+    margin-top: 0.7rem;
+}
+.color-file .color input{
+    width: 5rem;
+    height: 3rem;
+    padding: 0.5rem;
+    border-radius: 1.30rem;
+}
+.color-file .file input{
+    width: 113%;
+}
+.Additional-Notes{
+    margin-top: 3rem;
+}
+.Additional-Notes textarea{
+    height: 10rem;
+    width: 98%;
+    font-size: 0.9rem;
+    background-color: #f4e9dc;
+    border: 0.1rem solid #f3dbc0;
+    transition: all 0.2s ease-in;
+    border-radius: 0.3rem;
+}
+.Additional-Notes textarea:hover{
+    border: 0.1rem solid #462009;
+}
+.order-btns{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.15rem;
+}
+.order-btn{
+    background-color: transparent;
+    border: none;
+    padding: 0.9rem 1.75rem;
+    border-radius: 2rem;
+    background-color: #462009;
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+.reset-btn{
+    background-color:  #f7eee4;
+    color: #462009;
+    border: 2px solid #462009;
+}
+
+/* CSS FOR CONTACT PAGE */
+.form-details{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.contact-heading{
+    font-weight: bolder;
+    color: #462009;
+    font-size: 1.25rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-details .contact-form{
+    width: 40%;
+    background-color: #fcf8f4;
+    padding: 0.9rem 1.25rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #f3dbc0;
+    padding-left: 2rem;
+}
+.form-details .contact-details{
+    width: 40%;
+    background-color: #fcf8f4;
+    padding: 0.9rem 1.25rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #f3dbc0;
+    padding-left: 2rem;
+}
+.form-details label{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.7rem 0;
+    color: #462009;
+}
+.form-details input{
+    padding: 0.9rem;
+    background-color: #f4e9dc;
+    border: none;
+    outline: none;
+    border: 0.1rem solid #f3dbc0;
+    border-radius: 2rem;
+    transition: all 0.2s ease-in;
+    width: 90%;
+}
+
+.form-details input:hover{
+    border: 0.1rem solid #462009;
+}
+
+.form-details select{
+    background-color: #f4e9dc;
+    color: #462009;
+    border-radius: 3rem;
+    padding: 0.9rem 1rem;
+    border: none;
+    border: 0.1rem solid #f3dbc0;
+    width: 95%;
+    transition: all 0.2s ease-in;
+}
+.form-details select:hover{
+    border: 0.1rem solid #462009;
+}  
+
+.form-details textarea{
+    height: 6rem;
+    width: 95%;
+    font-size: 0.9rem;
+    background-color: #f4e9dc;
+    border: 0.1rem solid #f3dbc0;
+    transition: all 0.2s ease-in;
+    border-radius: 0.3rem;
+}
+
+.form-details textarea:hover{
+    border: 0.1rem solid #462009;
+}
+.contact-btn .submit-btn{
+    background-color: transparent;
+    border: none;
+    padding: 0.9rem 1.75rem;
+    border-radius: 2rem;
+    background-color: #462009;
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0.9rem 0;
+}
+.OurDetails{
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+.OurDetails p{
+    font-size: 1.10rem;
+    color: #819956;
+    font-weight: 550;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.OurDetails strong{
+    color: #b76c37;
+    margin-right: 1rem;
+}
+.OurDetails .detail2 strong{
+    margin-right: 1.30rem;
+}
+.OurDetails .detail3 strong{
+    margin-right: 1.95rem;
+}
+.OurDetails .detail4 strong{
+    margin-right: 1.90rem;
+}
+.social-media-icons{
+    display: flex;
+    gap: 0.6rem;
+}
+.social-media-icons a{
+    color: #462009;
+}
+.social-media-icons a i{
+    padding: 0.6rem;
+    border-radius: 50%;
+    background-color: #b76c3741;
+}
+.contact-map-video{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.contact-map-video .contact-map{
+    text-align: center;
+    width: 40%;
+    background-color: #fcf8f4;
+    padding: 0.9rem 1.25rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #f3dbc0;
+}
+.contact-map-video .contact-map iframe{
+    border-radius: 0.5rem;
+}
+
+.contact-map-video .contact-video{
+    text-align: center;
+    width: 40%;
+    background-color: #fcf8f4;
+    padding: 0.9rem 1.25rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #f3dbc0;
+}
+
+.contact-map-video .contact-video video{
+    width: 95%;
+    border-radius: 0.5rem;
+}
+.contact-map-video .contact-heading{
+    text-align: left;
+    padding-left: 1rem;
+}
+.video-tag-title{
+    color: #b76c37;
+    font-size: 0.8rem;
+    font-style: italic;
+}
