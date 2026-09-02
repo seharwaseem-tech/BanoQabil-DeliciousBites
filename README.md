@@ -27,13 +27,13 @@ based on my own creative choices**.
 - Font Awesome (icons)
 
 ## Preview
-![Home Page](./screenshots/home page.png)
-![Order Page](./screenshots/order page.png)
-![Contact Page](./screenshots/contact page.png)
+![Home Page](./screenshots/home_page.png)
+![Order Page](./screenshots/order_page.png)
+![Contact Page](./screenshots/contact_page.png)
 
 ## Assignment Brief
 See [Assignment.pdf](./docs/Assignment.pdf) for the original task instructions this project was built against.
 
 ## Author
-Sehar Waseem
+Sehar Waseem<br>
 Software Engineering Student
